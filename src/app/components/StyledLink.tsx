@@ -1,14 +1,15 @@
 import Link from "next/link";
+import { ReactNode } from "react";
 
 type StyledLinkType = {
-  name: string;
+  children: ReactNode;
   href: string;
 };
 
-export default function StyledLink({ name, href }: StyledLinkType) {
+export default function StyledLink({ children, href }: StyledLinkType) {
   return (
     <Link className="text-highlight-blue" href={href}>
-      {name}
+      {children}
     </Link>
   );
 }
