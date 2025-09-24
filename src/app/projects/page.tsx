@@ -1,5 +1,6 @@
 import React from "react";
 import { ProjectWrapper } from "../components/Projectwrapper";
+import StyledLink from "../components/StyledLink";
 
 export default function Page() {
   return (
@@ -22,9 +23,23 @@ export default function Page() {
         stack="Ruby">
         <p className="text-base-blue">
           Series of projects from The Odin Project where I have implemented
-          Linked-List, Hash-Map, Binary Search Tree and Graph data structures.
-          For the BST and Graph I have used Breath First Search and Depth First
-          search.
+          <StyledLink href={"https://github.com/costealan/linked_list"}>
+            Linked-List
+          </StyledLink>
+          ,{" "}
+          <StyledLink href="https://github.com/costealan/hash_map">
+            Hash-Map
+          </StyledLink>
+          ,{" "}
+          <StyledLink href="https://github.com/costealan/binary_tree">
+            Binary Search Tree
+          </StyledLink>{" "}
+          and{" "}
+          <StyledLink href="https://github.com/costealan/knights_travails">
+            Graph
+          </StyledLink>{" "}
+          data structures. For the BST and Graph I have used Breath First Search
+          and Depth First search.
         </p>
       </ProjectWrapper>
       <ProjectWrapper
@@ -33,17 +48,19 @@ export default function Page() {
         <p className="text-base-blue text-lg">
           I took an intensive bootcamp where I learned how to make pixel perfect
           responsive sites, I have experience making single page apps with
-          Javascript DOM manipulation and with React. I also worked making
-          backend systems
+          Javascript DOM manipulation, I also worked with{" "}
+          <StyledLink href="https://github.com/costealan/rtc-games">
+            React
+          </StyledLink>
+          . I made{" "}
+          <StyledLink href="https://github.com/costealan/rtc-backend3">
+            Node.js servers
+          </StyledLink>{" "}
+          using Express and MongoDB, sending CRUD operations.
         </p>
       </ProjectWrapper>
-      <ProjectWrapper title="Rock{theCode} Bootcamp projects" stack="CSS">
-        <p className="text-base-blue">
-          I took an intensive bootcamp where I learned how to make pixel perfect
-          responsive sites, I have experience making single page apps with
-          Javascript DOM manipulation and with React. I also worked making
-          backend systems
-        </p>
+      <ProjectWrapper title="This page!" stack="Next.js, Tailwind">
+        <p className="text-base-blue"></p>
       </ProjectWrapper>
     </>
   );
