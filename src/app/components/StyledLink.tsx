@@ -8,8 +8,8 @@ type StyledLinkType = {
 
 export default function StyledLink({ children, href }: StyledLinkType) {
   return (
-    <Link className="text-highlight-blue" href={href}>
+    <a target="_blank" className="text-highlight-blue" href={href}>
       {children}
-    </Link>
+    </a>
   );
 }
