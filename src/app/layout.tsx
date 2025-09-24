@@ -21,11 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${railway} antialiased`}>
-        <div className="flex justify-center">
-          <div className="flex max-w-7xl pt-40 pr-25 pb-23 pl-45 ">
+        <div className="flex flex-1 lg:justify-center md:justify-start lg:max-w-7lg">
+          <div className="lg:flex lg:flex-row lg:max-w-7lg lg:pt-40 lg:pr-25 lg:pb-23 lg:pl-45 max-lg:flex-col md:pl-27 md:pt-20 max-md:pl-3 max-md:pt-3.5">
             <Header />
             <div>
-              <nav className="ml-30 flex gap-5 pb-5">
+              <nav className="lg:ml-30 flex gap-5 pb-5">
                 <Link className="text-base-blue" href={"/about"}>
                   About
                 </Link>
@@ -33,7 +33,9 @@ export default function RootLayout({
                   Projects
                 </Link>
               </nav>
-              <main className="max-w-125 ml-30">{children}</main>
+              <main className="lg:max-w-125 lg:ml-30 md:max-w-2xl md:pt-16">
+                {children}
+              </main>
             </div>
           </div>
         </div>
