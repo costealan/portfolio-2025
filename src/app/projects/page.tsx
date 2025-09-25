@@ -1,4 +1,3 @@
-import React from "react";
 import { ProjectWrapper } from "../components/Projectwrapper";
 import StyledLink from "../components/StyledLink";
 

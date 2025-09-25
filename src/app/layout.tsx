@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
-import Link from "next/link";
 import Nav from "./components/Nav";
 
 const railway = Raleway({
