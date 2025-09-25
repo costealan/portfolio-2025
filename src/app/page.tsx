@@ -7,7 +7,9 @@ export default function Home() {
       <AboutPara>
         I am a developer who is changing careers from owning a food business and
         freelancing{" "}
-        <Link className="text-red-400" href={"food-content"}>
+        <Link
+          className="text-highlight-blue hover:text-dark-blue"
+          href={"food-content"}>
           photography
         </Link>
         . I am passionate about building accesible, responsive projects. My

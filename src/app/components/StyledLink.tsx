@@ -7,7 +7,10 @@ type StyledLinkType = {
 
 export default function StyledLink({ children, href }: StyledLinkType) {
   return (
-    <a target="_blank" className="text-highlight-blue" href={href}>
+    <a
+      target="_blank"
+      className="text-highlight-blue hover:text-dark-blue "
+      href={href}>
       {children}
     </a>
   );
