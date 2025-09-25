@@ -33,7 +33,7 @@ export default function RootLayout({
                   Projects
                 </Link>
               </nav>
-              <main className="lg:max-w-125 lg:ml-30 md:max-w-2xl md:pt-16">
+              <main className="lg:max-w-125 lg:ml-30 md:max-w-2xl max-lg:pt-16">
                 {children}
               </main>
             </div>
