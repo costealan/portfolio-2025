@@ -74,7 +74,9 @@ export default function Page() {
         <p className="text-base-blue">
           Responsive accessible and component driven site. It is my first
           Next.js solo project with Tailwind. Here is the{" "}
-          {/* <StyledLink>code</StyledLink> */}
+          <StyledLink href="https://github.com/costealan/portfolio-2025">
+            code
+          </StyledLink>
         </p>
       </ProjectWrapper>
     </>
