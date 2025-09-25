@@ -3,6 +3,7 @@ import { Raleway } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Link from "next/link";
+import Nav from "./components/Nav";
 
 const railway = Raleway({
   subsets: ["latin"],
@@ -25,14 +26,7 @@ export default function RootLayout({
           <div className="lg:flex lg:flex-row lg:max-w-7lg lg:pt-40 lg:pr-25 lg:pb-23 lg:pl-45 max-lg:flex-col md:pl-27 md:pt-20 max-md:pl-3 max-md:pt-3.5">
             <Header />
             <div>
-              <nav className="lg:ml-30 flex gap-5 pb-5">
-                <Link className="text-base-blue" href={"/about"}>
-                  About
-                </Link>
-                <Link className="text-base-blue" href={"/projects"}>
-                  Projects
-                </Link>
-              </nav>
+              <Nav />
               <main className="lg:max-w-125 lg:ml-30 md:max-w-2xl max-lg:pt-16">
                 {children}
               </main>
