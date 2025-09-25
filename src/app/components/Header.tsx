@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Header() {
   return (
     <header className="lg:flex-1 md:flex md:flex-col md:pb-10">
