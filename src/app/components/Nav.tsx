@@ -10,7 +10,7 @@ export default function Nav() {
       </Link>
       <Link
         className="text-highlight-blue hover:text-dark-blue"
-        href={"/about"}>
+        href={"/about-me"}>
         About
       </Link>
     </nav>
