@@ -12,8 +12,9 @@ export default function About() {
           href={"food-content"}>
           photography
         </Link>
-        . I am passionate about building accesible, responsive projects. My
-        favorite part of
+        . I am passionate about building accesible, responsive projects. I like
+        backend as much as frontend, I enjoy writing logic and making clean code
+        as much as making cool interactive interfaces.
       </AboutPara>
       <AboutPara>
         I made a MERN app for an accountant firm that helped with Project
@@ -31,7 +32,7 @@ export default function About() {
       </AboutPara>
       <AboutPara>
         In my me-time I enjoy playing guitar, cooking fancy meals, lifting heavy
-        weights and playing Elden Ring
+        weights and playing Elden Ring.
       </AboutPara>
     </>
   );
