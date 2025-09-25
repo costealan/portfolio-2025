@@ -14,15 +14,18 @@ export default function Page() {
           for admin and employee. The frontend handles state through Zustand
           stores, the fetch requests are made through React Query a toast
           message communicates the result of the update. To keep a fast user
-          experience the front-end paginated the displayed results. Here is a
-          <em className="text-highlight-blue">demo</em>
+          experience the front-end paginated the displayed results. Here is a{" "}
+          <StyledLink href="https://accounting-demo-coste.netlify.app">
+            Demo
+          </StyledLink>{" "}
+          Renders server might take 15 seconds to start
         </p>
       </ProjectWrapper>
       <ProjectWrapper
         title="Data Structures, Algorithms and recursion"
         stack="Ruby">
         <p className="text-base-blue">
-          Series of projects from The Odin Project where I have implemented
+          Series of projects from The Odin Project where I have implemented{" "}
           <StyledLink href={"https://github.com/costealan/linked_list"}>
             Linked-List
           </StyledLink>
@@ -46,17 +49,26 @@ export default function Page() {
         title="Rock{theCode} Bootcamp projects"
         stack="HTML, CSS, Javascript, React, Node.js, Express, MongoDB">
         <p className="text-base-blue text-lg">
-          I took an intensive bootcamp where I learned how to make pixel perfect
-          responsive sites, I have experience making single page apps with
-          Javascript DOM manipulation, I also worked with{" "}
+          I took an intensive bootcamp where I learned how to make{" "}
+          <StyledLink
+            href="https://rtc-webresponsive-alancoste.netlify.app
+">
+            HTML and CSS
+          </StyledLink>{" "}
+          pixel perfect responsive sites , I have experience making single page
+          apps with{" "}
+          <StyledLink href="https://dom-manipulation-js-coste.netlify.app/">
+            Javascript DOM
+          </StyledLink>{" "}
+          manipulation, I also worked with{" "}
           <StyledLink href="https://github.com/costealan/rtc-games">
             React
           </StyledLink>
           . I made{" "}
           <StyledLink href="https://github.com/costealan/rtc-backend3">
-            Node.js servers
+            CRUD servers
           </StyledLink>{" "}
-          using Express and MongoDB, sending CRUD operations.
+          using Nodejs, Express and MongoDB.
         </p>
       </ProjectWrapper>
       <ProjectWrapper title="This page!" stack="Next.js, Tailwind">
