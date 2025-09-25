@@ -17,7 +17,7 @@ export default function Page() {
           <StyledLink href="https://accounting-demo-coste.netlify.app">
             Demo
           </StyledLink>{" "}
-          Renders server might take 15 seconds to start
+          Renders server takes 15 seconds to start
         </p>
       </ProjectWrapper>
       <ProjectWrapper
@@ -71,7 +71,11 @@ export default function Page() {
         </p>
       </ProjectWrapper>
       <ProjectWrapper title="This page!" stack="Next.js, Tailwind">
-        <p className="text-base-blue"></p>
+        <p className="text-base-blue">
+          Responsive accessible and component driven site. It is my first
+          Next.js solo project with Tailwind. Here is the{" "}
+          {/* <StyledLink>code</StyledLink> */}
+        </p>
       </ProjectWrapper>
     </>
   );
